@@ -1,0 +1,33 @@
+# Project files
+/source/build
+/source/dist
+/source/tmp
+/source/out-tsc
+/source/e2e/*.js
+/source/e2e/*.map
+e2e_test.*
+
+# Dependencies
+/source/node_modules
+/source/bower_components
+
+# IDE files
+/source/.idea/*
+/source/.vscode/*
+!/source/.vscode/settings.json
+!/source/.vscode/tasks.json
+!/source/.vscode/launch.json
+!/source/.vscode/extensions.json
+.project
+.classpath
+*.launch
+*.sublime-workspace
+
+# Misc
+.DS_STORE
+Thumbs.db
+.sass-cache
+/source/connect.lock
+/source/coverage
+npm-debug.log
+testem.log
